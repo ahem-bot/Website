@@ -4,7 +4,7 @@
     background-color: black;
     color: white;
     height: 90px;
-    padding: 10px;
+    padding: 0px;
 }
 
 #ms{
@@ -160,10 +160,10 @@ body{
     .ul1{
      list-style: none;
      display: flex;
+     height: 350px;
      flex-direction: column;
      background-color: black;
      color: white;
-     height: 450px;
      text-align: center;
   }
   .gamerstext{
@@ -181,4 +181,10 @@ body{
   .fp{
     font-size: 12px;
   }
+}
+#vodc{
+    text-align: center;
+}
+.vod{
+    text-align: center;
 }
