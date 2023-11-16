@@ -1,0 +1,184 @@
+.ul1{
+    list-style: none;
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 90px;
+    padding: 10px;
+}
+
+#ms{
+    text-decoration: none;
+}
+
+.logo{
+    border: red 4px solid;
+    border-radius: 50px;
+    right: 0px;
+}
+
+.log{
+    margin: 7px;
+}
+
+li{
+    padding-inline: 5px;
+    font-size: 20px;
+}
+.a1{
+    margin: 30px;
+}
+
+*{
+    font-family: monospace;
+}
+.textes h1{
+    text-align: center;
+    color:rgb(7, 245, 154);
+    font-size:40px;
+}
+.o1{
+    text-align: center;
+    color:rgb(7, 245, 233);
+    font-size: 26px;
+}
+body{
+    background-image: url('ahekbos.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.textes button{
+    background:transparent;
+    border:1px rgb(110, 243, 188) solid;
+    width:180px;
+    height: 40px;
+    font-size: 20px;
+    display: block;
+    margin: auto;
+}
+
+.textes button:hover{
+    background:transparent;
+    width:200px;
+}
+.o2{
+    color: red;
+    font-size: 20px;
+    right: 2px;
+}
+.linkf{
+    font-size: 20px;
+    color: green;
+}
+
+.ul2{
+    background-color: rgb(155, 137, 137);
+    height: 300px;
+    width: 230px;
+    border: 2px black solid;
+}
+.adec{
+    color: blue;
+}
+.adect{
+    color: blue;
+    color: white;
+}
+
+.adec:hover{
+    cursor: pointer;
+    color: green;
+}
+.speech{
+    text-align: center;
+    color:rgb(7, 245, 233);
+    font-size:26px;
+}
+.games details summary{
+    color: rgb(243, 66, 66);
+    font-size: 26px;
+}
+.games details summary:hover{
+    color: rgb(0, 255, 85);
+    font-size: 23px;
+}
+.games details{
+    text-align: center;
+}
+.det{
+    color:rgb(2, 113, 240);
+    font-size: 20px;
+}
+.gamerstext{
+    text-align: center;
+    color:aquamarine;
+    font-size: 26px;
+}
+.vodo{
+    text-decoration: none;
+    color: rgb(132, 210, 247);
+    font-size: 20px;
+}
+.vod summary{
+    color: rgb(61, 120, 248);
+    font-size: 26px;
+}
+.backend{
+    text-align: center;
+    font-size: 35px;
+    color: aquamarine;
+}
+.backp{
+    text-align: center;
+    font-size: 25px;
+    color: rgb(81, 196, 116);
+}
+#llb{
+    text-decoration-color: rgb(78, 178, 239);
+    text-decoration-style: double;
+}
+#llb:hover{
+    cursor: pointer;
+    color: green;
+    text-decoration-color: green;
+    text-decoration-style: double;
+}
+#gl{
+    text-decoration: none;
+}
+.ft1{
+    background-color: black;
+    height: 50px;
+    text-align: center;
+}
+.fp{
+    color: aliceblue;
+    font-size:15px;
+}
+@media (max-width:700px){
+    .ul1{
+     list-style: none;
+     display: flex;
+     flex-direction: column;
+     background-color: black;
+     color: white;
+     height: 450px;
+     text-align: center;
+  }
+  .gamerstext{
+    font-size: 17px;
+  }
+  .o1{
+    font-size: 17px;
+  }
+  .speech{
+    font-size: 17px;
+  }
+  .backp{
+    font-size: 17px;
+  }
+  .fp{
+    font-size: 12px;
+  }
+}
