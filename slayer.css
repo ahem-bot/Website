@@ -1,0 +1,144 @@
+.ul1{
+    list-style: none;
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 90px;
+    padding: 10px;
+}
+
+#llb{
+    text-decoration: none;
+}
+
+.logo{
+    border: red 4px solid;
+    border-radius: 50px;
+    right: 0px;
+}
+
+.log{
+    margin: 7px;
+}
+
+li{
+    padding-inline: 5px;
+    font-size: 20px;
+}
+.a1{
+    margin: 30px;
+}
+
+*{
+    font-family: monospace;
+}
+.textes h1{
+    text-align: center;
+    color:rgb(7, 245, 154);
+    font-size:40px;
+}
+.o1{
+    text-align: center;
+    color:rgb(7, 245, 233);
+    font-size: 26px;
+}
+body{
+    background-image: url('ahekbos.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.o2{
+    color: red;
+    font-size: 20px;
+    right: 2px;
+}
+.linkf{
+    font-size: 20px;
+    color: green;
+}
+
+.ul2{
+    background-color: rgb(155, 137, 137);
+    height: 300px;
+    width: 230px;
+    border: 2px black solid;
+}
+.adec{
+    color: blue;
+}
+.adect{
+    color: blue;
+    color: white;
+}
+
+.adec:hover{
+    cursor: pointer;
+    color: green;
+}
+.glgames{
+    text-align: center;
+    color:rgb(7, 245, 233);
+    font-size: 26px;
+}
+#gl{
+    text-decoration-color: rgb(78, 178, 239);
+    text-decoration-style: double;
+}
+#gl:hover{
+    cursor: pointer;
+    color: rgb(25, 141, 25);
+    text-decoration-color: green;
+    text-decoration-style: double;
+}
+#ms{
+    text-decoration: none;
+}
+.game1 ul li img{
+    padding: 0px;
+    margin: 0px;
+    width: 100px;
+    height: 100px;
+}
+.gm1 li{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+a{
+    color: aqua;
+}
+.pizdetail p{
+    text-align: center;
+    color:aqua;
+    font-size:25px;
+}
+@media (max-width:700px){
+  .glgames{
+    font-size: 17px;
+  }
+  .textes h1{
+    font-size: 30px;
+  }
+  .pizdetail p{
+    font-size:17px;
+  }
+}
+.limk{
+    border: 2px black solid;
+    border-radius: 20px;
+    background-color: aqua;
+    color: rgb(0, 149, 255);
+    width: 130px;
+    height: 50px;
+    font-size: 15px;
+}
+.pizza_farmer{
+    color: aqua;
+}
+.limk:hover{
+    background-color: aquamarine;
+    width: 135px;
+    height: 55px;
+}
